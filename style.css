@@ -1,0 +1,116 @@
+body{
+    background-image: url(img/bh.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.caberoda{
+    background-color: rgb(36, 34, 34);
+    border-radius: 100px;
+}
+nav ul{
+    justify-content: space-around;
+    box-sizing: border-box;
+    flex-direction: row;
+    padding: 0;
+    width: 100%;
+    display: flex;
+    list-style-type: none;
+}
+nav ul li a{
+    text-decoration: none;
+    color: honeydew;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+}
+nav ul li a:hover{
+    cursor: pointer;
+    color: white;
+    border-bottom: solid white;
+    border-radius: 100px;
+}
+#titulo{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 10px;
+    color: white;
+}
+#titulo:hover{
+    animation: animaçaoboa 2000ms ease infinite;
+    transform: scale(1.2);
+    transition: ease 2000ms;
+}
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 20px;
+    display: flex;
+}
+.titnot{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+}
+.noticia{
+    background-color: rgba(36, 34, 34, 0.75);
+    border: 3px solid rgb(36, 34, 34,);
+    border-radius: 12px;
+    margin: 10px 5px 0px 5px;
+    padding: 5px 10px 5px 10px;
+}
+.noticia:hover{
+    background-color: rgb(36, 34, 34);
+}
+.imagem{
+    float: left;
+    display: block;
+    margin-right: 10px;
+}
+.alinharDireita{
+    float: right;
+}
+.video{
+    border: rgb(17, 16, 16) solid 5px;
+    border-radius: 12px;
+    margin-left: 350px;
+}
+.rodtext{
+    text-align: center;
+    padding-left: 525px;
+    font-family: none;
+}
+.titrod{
+    text-align: center;
+    color: white;
+}
+.link:link{
+    text-decoration: none;
+    color: red;
+    margin: 2px 550px 2px 550px;
+}
+.link:visited{
+    color: rgb(13, 116, 30);
+    border: rgb(13, 116, 30) solid;
+}
+.link:hover{
+    border-bottom: rgb(108, 138, 113) solid;
+    border-radius: 100px;
+    cursor: pointer;
+}
+@keyframes animaçaoboa{
+    0%{
+        letter-spacing: normal;
+    }
+    25%{
+        letter-spacing: 3px;
+    }
+    50%{
+        letter-spacing: 5px;
+    }
+    75%{
+        letter-spacing: 3px;
+    }
+    100%{
+        letter-spacing: normal;
+    }
+}
